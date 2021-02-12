@@ -1,0 +1,6 @@
+framework module Pods_HelloTalkClone {
+  umbrella header "Pods-HelloTalkClone-umbrella.h"
+
+  export *
+  module * { export * }
+}

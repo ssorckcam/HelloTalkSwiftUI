@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		016BE6BF25D490FD009B631E /* HelloTalkCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE6BE25D490FD009B631E /* HelloTalkCloneApp.swift */; };
+		016BE6C125D490FD009B631E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE6C025D490FD009B631E /* ContentView.swift */; };
+		016BE6C325D490FE009B631E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016BE6C225D490FE009B631E /* Assets.xcassets */; };
+		016BE6C625D490FE009B631E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016BE6C525D490FE009B631E /* Preview Assets.xcassets */; };
+		016BE6D925D493BF009B631E /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 016BE6D825D493BF009B631E /* SwiftUIX */; };
+		016BE6DD25D493E1009B631E /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE6DC25D493E1009B631E /* Chat.swift */; };
+		016BE6E125D49513009B631E /* ChatList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE6E025D49513009B631E /* ChatList.swift */; };
+		016BE6E425D49521009B631E /* ChatListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE6E325D49521009B631E /* ChatListCell.swift */; };
+		016BE6E825D4961E009B631E /* ChatSearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE6E725D4961E009B631E /* ChatSearchResults.swift */; };
+		016BE6EB25D49A46009B631E /* ChatAddMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE6EA25D49A46009B631E /* ChatAddMenu.swift */; };
+		016BE6EF25D49C9B009B631E /* Moments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE6EE25D49C9B009B631E /* Moments.swift */; };
+		016BE6F225D49CC6009B631E /* MomentsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE6F125D49CC6009B631E /* MomentsList.swift */; };
+		016BE6F525D49CD0009B631E /* MomentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE6F425D49CD0009B631E /* MomentsCell.swift */; };
+		016BE6F825D49CFB009B631E /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE6F725D49CFB009B631E /* Avatar.swift */; };
+		016BE6FB25D49F9C009B631E /* MomentCellComments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE6FA25D49F9C009B631E /* MomentCellComments.swift */; };
+		016BE6FE25D4A040009B631E /* MomentCellButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE6FD25D4A040009B631E /* MomentCellButtonRow.swift */; };
+		016BE70125D4A080009B631E /* MomentCellHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE70025D4A080009B631E /* MomentCellHeader.swift */; };
+		016BE70425D4A37A009B631E /* MomentsSearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE70325D4A37A009B631E /* MomentsSearchResults.swift */; };
+		016BE70725D4BC45009B631E /* MomentsCellMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE70625D4BC45009B631E /* MomentsCellMenu.swift */; };
+		016BE70B25D4BF86009B631E /* FindPartners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE70A25D4BF86009B631E /* FindPartners.swift */; };
+		016BE71025D4BFEF009B631E /* FindPartnersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE70F25D4BFEF009B631E /* FindPartnersList.swift */; };
+		016BE71325D4C035009B631E /* FindPartnersListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE71225D4C035009B631E /* FindPartnersListCell.swift */; };
+		016BE71C25D4C7B0009B631E /* Me.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE71B25D4C7B0009B631E /* Me.swift */; };
+		016BE71F25D4C7F3009B631E /* MeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE71E25D4C7F3009B631E /* MeHeader.swift */; };
+		016BE72225D4C86E009B631E /* MeStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE72125D4C86E009B631E /* MeStats.swift */; };
+		016BE72525D4C88E009B631E /* MeStatsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE72425D4C88E009B631E /* MeStatsCell.swift */; };
+		016BE72825D4CBD5009B631E /* MeLearningPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE72725D4CBD5009B631E /* MeLearningPoints.swift */; };
+		016BE72F25D4CC36009B631E /* MeTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE72E25D4CC36009B631E /* MeTools.swift */; };
+		016BE73225D4CDE0009B631E /* MeLearningPointsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE73125D4CDE0009B631E /* MeLearningPointsCell.swift */; };
+		016BE73D25D4D6FD009B631E /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE73C25D4D6FD009B631E /* UserData.swift */; };
+		016BE74125D4D719009B631E /* UserDataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE74025D4D719009B631E /* UserDataContainer.swift */; };
+		016BE74425D4D760009B631E /* AuthContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BE74325D4D760009B631E /* AuthContainer.swift */; };
+		01D5ACED25D5E47F00B499C5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01D5ACEC25D5E47F00B499C5 /* GoogleService-Info.plist */; };
+		01D5ACF125D5E6DE00B499C5 /* FirebaseKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5ACF025D5E6DE00B499C5 /* FirebaseKeys.swift */; };
+		01D5ACF425D5E71100B499C5 /* FirestoreReferenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5ACF325D5E71100B499C5 /* FirestoreReferenceManager.swift */; };
+		01D5ACF825D5EF8400B499C5 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5ACF725D5EF8400B499C5 /* Gender.swift */; };
+		01D5ACFC25D5F19F00B499C5 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5ACFB25D5F19F00B499C5 /* Coordinate.swift */; };
+		01D5ACFF25D5F2C300B499C5 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5ACFE25D5F2C300B499C5 /* Country.swift */; };
+		01D5AD0225D5F54F00B499C5 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5AD0125D5F54F00B499C5 /* Language.swift */; };
+		01D5AD0625D5F62600B499C5 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5AD0525D5F62600B499C5 /* SignIn.swift */; };
+		65674F138A5977C1EF4BC4E3 /* Pods_HelloTalkClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42F511B6C54E6D7FB7AA115 /* Pods_HelloTalkClone.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		016BE6BB25D490FD009B631E /* HelloTalkClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloTalkClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		016BE6BE25D490FD009B631E /* HelloTalkCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloTalkCloneApp.swift; sourceTree = "<group>"; };
+		016BE6C025D490FD009B631E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		016BE6C225D490FE009B631E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		016BE6C525D490FE009B631E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		016BE6C725D490FE009B631E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		016BE6DC25D493E1009B631E /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		016BE6E025D49513009B631E /* ChatList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatList.swift; sourceTree = "<group>"; };
+		016BE6E325D49521009B631E /* ChatListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListCell.swift; sourceTree = "<group>"; };
+		016BE6E725D4961E009B631E /* ChatSearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSearchResults.swift; sourceTree = "<group>"; };
+		016BE6EA25D49A46009B631E /* ChatAddMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAddMenu.swift; sourceTree = "<group>"; };
+		016BE6EE25D49C9B009B631E /* Moments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moments.swift; sourceTree = "<group>"; };
+		016BE6F125D49CC6009B631E /* MomentsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsList.swift; sourceTree = "<group>"; };
+		016BE6F425D49CD0009B631E /* MomentsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsCell.swift; sourceTree = "<group>"; };
+		016BE6F725D49CFB009B631E /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		016BE6FA25D49F9C009B631E /* MomentCellComments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentCellComments.swift; sourceTree = "<group>"; };
+		016BE6FD25D4A040009B631E /* MomentCellButtonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentCellButtonRow.swift; sourceTree = "<group>"; };
+		016BE70025D4A080009B631E /* MomentCellHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentCellHeader.swift; sourceTree = "<group>"; };
+		016BE70325D4A37A009B631E /* MomentsSearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsSearchResults.swift; sourceTree = "<group>"; };
+		016BE70625D4BC45009B631E /* MomentsCellMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsCellMenu.swift; sourceTree = "<group>"; };
+		016BE70A25D4BF86009B631E /* FindPartners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPartners.swift; sourceTree = "<group>"; };
+		016BE70F25D4BFEF009B631E /* FindPartnersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPartnersList.swift; sourceTree = "<group>"; };
+		016BE71225D4C035009B631E /* FindPartnersListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPartnersListCell.swift; sourceTree = "<group>"; };
+		016BE71B25D4C7B0009B631E /* Me.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Me.swift; sourceTree = "<group>"; };
+		016BE71E25D4C7F3009B631E /* MeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeHeader.swift; sourceTree = "<group>"; };
+		016BE72125D4C86E009B631E /* MeStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeStats.swift; sourceTree = "<group>"; };
+		016BE72425D4C88E009B631E /* MeStatsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeStatsCell.swift; sourceTree = "<group>"; };
+		016BE72725D4CBD5009B631E /* MeLearningPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeLearningPoints.swift; sourceTree = "<group>"; };
+		016BE72E25D4CC36009B631E /* MeTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeTools.swift; sourceTree = "<group>"; };
+		016BE73125D4CDE0009B631E /* MeLearningPointsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeLearningPointsCell.swift; sourceTree = "<group>"; };
+		016BE73C25D4D6FD009B631E /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		016BE74025D4D719009B631E /* UserDataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataContainer.swift; sourceTree = "<group>"; };
+		016BE74325D4D760009B631E /* AuthContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthContainer.swift; sourceTree = "<group>"; };
+		01D5ACEC25D5E47F00B499C5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		01D5ACF025D5E6DE00B499C5 /* FirebaseKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseKeys.swift; sourceTree = "<group>"; };
+		01D5ACF325D5E71100B499C5 /* FirestoreReferenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreReferenceManager.swift; sourceTree = "<group>"; };
+		01D5ACF725D5EF8400B499C5 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		01D5ACFB25D5F19F00B499C5 /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		01D5ACFE25D5F2C300B499C5 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		01D5AD0125D5F54F00B499C5 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		01D5AD0525D5F62600B499C5 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		51C18E837984E87A3B3B26A8 /* Pods-HelloTalkClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloTalkClone.debug.xcconfig"; path = "Target Support Files/Pods-HelloTalkClone/Pods-HelloTalkClone.debug.xcconfig"; sourceTree = "<group>"; };
+		CBA3B1E9DAB91FB187E4F448 /* Pods-HelloTalkClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloTalkClone.release.xcconfig"; path = "Target Support Files/Pods-HelloTalkClone/Pods-HelloTalkClone.release.xcconfig"; sourceTree = "<group>"; };
+		D42F511B6C54E6D7FB7AA115 /* Pods_HelloTalkClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloTalkClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		016BE6B825D490FD009B631E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016BE6D925D493BF009B631E /* SwiftUIX in Frameworks */,
+				65674F138A5977C1EF4BC4E3 /* Pods_HelloTalkClone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		016BE6B225D490FD009B631E = {
+			isa = PBXGroup;
+			children = (
+				016BE6BD25D490FD009B631E /* HelloTalkClone */,
+				016BE6BC25D490FD009B631E /* Products */,
+				30791E6A8E9AF37A4986639D /* Pods */,
+				F9D03D2A9B60F72C4E790175 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		016BE6BC25D490FD009B631E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				016BE6BB25D490FD009B631E /* HelloTalkClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		016BE6BD25D490FD009B631E /* HelloTalkClone */ = {
+			isa = PBXGroup;
+			children = (
+				01D5ACEC25D5E47F00B499C5 /* GoogleService-Info.plist */,
+				016BE6CE25D4910A009B631E /* src */,
+				016BE6BE25D490FD009B631E /* HelloTalkCloneApp.swift */,
+				016BE6C025D490FD009B631E /* ContentView.swift */,
+				016BE6C225D490FE009B631E /* Assets.xcassets */,
+				016BE6C725D490FE009B631E /* Info.plist */,
+				016BE6C425D490FE009B631E /* Preview Content */,
+				01D5ACF025D5E6DE00B499C5 /* FirebaseKeys.swift */,
+				01D5ACF325D5E71100B499C5 /* FirestoreReferenceManager.swift */,
+			);
+			path = HelloTalkClone;
+			sourceTree = "<group>";
+		};
+		016BE6C425D490FE009B631E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				016BE6C525D490FE009B631E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		016BE6CE25D4910A009B631E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				01D5ACF625D5EF7800B499C5 /* enum */,
+				016BE73B25D4D6F3009B631E /* model */,
+				016BE6E625D49528009B631E /* common */,
+				016BE6CF25D49110009B631E /* view */,
+				016BE74025D4D719009B631E /* UserDataContainer.swift */,
+				016BE74325D4D760009B631E /* AuthContainer.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		016BE6CF25D49110009B631E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				01D5AD0425D5F61900B499C5 /* SignIn */,
+				016BE6D525D49178009B631E /* Me */,
+				016BE6D425D49172009B631E /* Learn */,
+				016BE6D325D49168009B631E /* Search */,
+				016BE6D225D49163009B631E /* Chat */,
+				016BE6D125D49139009B631E /* Moments */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		016BE6D125D49139009B631E /* Moments */ = {
+			isa = PBXGroup;
+			children = (
+				016BE6ED25D49C8C009B631E /* view */,
+			);
+			path = Moments;
+			sourceTree = "<group>";
+		};
+		016BE6D225D49163009B631E /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				016BE6DB25D493CD009B631E /* view */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		016BE6D325D49168009B631E /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				016BE70925D4BF77009B631E /* view */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		016BE6D425D49172009B631E /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Learn;
+			sourceTree = "<group>";
+		};
+		016BE6D525D49178009B631E /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				016BE71525D4C794009B631E /* view */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		016BE6DB25D493CD009B631E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				016BE6DC25D493E1009B631E /* Chat.swift */,
+				016BE6E025D49513009B631E /* ChatList.swift */,
+				016BE6E325D49521009B631E /* ChatListCell.swift */,
+				016BE6E725D4961E009B631E /* ChatSearchResults.swift */,
+				016BE6EA25D49A46009B631E /* ChatAddMenu.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		016BE6E625D49528009B631E /* common */ = {
+			isa = PBXGroup;
+			children = (
+				016BE6F725D49CFB009B631E /* Avatar.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		016BE6ED25D49C8C009B631E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				016BE6EE25D49C9B009B631E /* Moments.swift */,
+				016BE6F125D49CC6009B631E /* MomentsList.swift */,
+				016BE6F425D49CD0009B631E /* MomentsCell.swift */,
+				016BE6FA25D49F9C009B631E /* MomentCellComments.swift */,
+				016BE6FD25D4A040009B631E /* MomentCellButtonRow.swift */,
+				016BE70025D4A080009B631E /* MomentCellHeader.swift */,
+				016BE70325D4A37A009B631E /* MomentsSearchResults.swift */,
+				016BE70625D4BC45009B631E /* MomentsCellMenu.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		016BE70925D4BF77009B631E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				016BE70A25D4BF86009B631E /* FindPartners.swift */,
+				016BE70F25D4BFEF009B631E /* FindPartnersList.swift */,
+				016BE71225D4C035009B631E /* FindPartnersListCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		016BE71525D4C794009B631E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				016BE71B25D4C7B0009B631E /* Me.swift */,
+				016BE71E25D4C7F3009B631E /* MeHeader.swift */,
+				016BE72125D4C86E009B631E /* MeStats.swift */,
+				016BE72425D4C88E009B631E /* MeStatsCell.swift */,
+				016BE72725D4CBD5009B631E /* MeLearningPoints.swift */,
+				016BE72E25D4CC36009B631E /* MeTools.swift */,
+				016BE73125D4CDE0009B631E /* MeLearningPointsCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		016BE73B25D4D6F3009B631E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				016BE73C25D4D6FD009B631E /* UserData.swift */,
+				01D5ACFB25D5F19F00B499C5 /* Coordinate.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		01D5ACF625D5EF7800B499C5 /* enum */ = {
+			isa = PBXGroup;
+			children = (
+				01D5ACF725D5EF8400B499C5 /* Gender.swift */,
+				01D5ACFE25D5F2C300B499C5 /* Country.swift */,
+				01D5AD0125D5F54F00B499C5 /* Language.swift */,
+			);
+			path = enum;
+			sourceTree = "<group>";
+		};
+		01D5AD0425D5F61900B499C5 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				01D5AD0525D5F62600B499C5 /* SignIn.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		30791E6A8E9AF37A4986639D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51C18E837984E87A3B3B26A8 /* Pods-HelloTalkClone.debug.xcconfig */,
+				CBA3B1E9DAB91FB187E4F448 /* Pods-HelloTalkClone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F9D03D2A9B60F72C4E790175 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D42F511B6C54E6D7FB7AA115 /* Pods_HelloTalkClone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		016BE6BA25D490FD009B631E /* HelloTalkClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 016BE6CA25D490FE009B631E /* Build configuration list for PBXNativeTarget "HelloTalkClone" */;
+			buildPhases = (
+				7FB55E3A923BC7D0855C3E80 /* [CP] Check Pods Manifest.lock */,
+				016BE6B725D490FD009B631E /* Sources */,
+				016BE6B825D490FD009B631E /* Frameworks */,
+				016BE6B925D490FD009B631E /* Resources */,
+				C7BF4E8AB852FE8BEE5D7BD9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloTalkClone;
+			packageProductDependencies = (
+				016BE6D825D493BF009B631E /* SwiftUIX */,
+			);
+			productName = HelloTalkClone;
+			productReference = 016BE6BB25D490FD009B631E /* HelloTalkClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		016BE6B325D490FD009B631E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					016BE6BA25D490FD009B631E = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 016BE6B625D490FD009B631E /* Build configuration list for PBXProject "HelloTalkClone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 016BE6B225D490FD009B631E;
+			packageReferences = (
+				016BE6D725D493BF009B631E /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+			);
+			productRefGroup = 016BE6BC25D490FD009B631E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				016BE6BA25D490FD009B631E /* HelloTalkClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		016BE6B925D490FD009B631E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016BE6C625D490FE009B631E /* Preview Assets.xcassets in Resources */,
+				01D5ACED25D5E47F00B499C5 /* GoogleService-Info.plist in Resources */,
+				016BE6C325D490FE009B631E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FB55E3A923BC7D0855C3E80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloTalkClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7BF4E8AB852FE8BEE5D7BD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloTalkClone/Pods-HelloTalkClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloTalkClone/Pods-HelloTalkClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloTalkClone/Pods-HelloTalkClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		016BE6B725D490FD009B631E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016BE6E825D4961E009B631E /* ChatSearchResults.swift in Sources */,
+				016BE72525D4C88E009B631E /* MeStatsCell.swift in Sources */,
+				016BE74125D4D719009B631E /* UserDataContainer.swift in Sources */,
+				016BE71C25D4C7B0009B631E /* Me.swift in Sources */,
+				016BE6FB25D49F9C009B631E /* MomentCellComments.swift in Sources */,
+				01D5ACFC25D5F19F00B499C5 /* Coordinate.swift in Sources */,
+				016BE71325D4C035009B631E /* FindPartnersListCell.swift in Sources */,
+				016BE6E425D49521009B631E /* ChatListCell.swift in Sources */,
+				016BE73225D4CDE0009B631E /* MeLearningPointsCell.swift in Sources */,
+				016BE6FE25D4A040009B631E /* MomentCellButtonRow.swift in Sources */,
+				016BE70B25D4BF86009B631E /* FindPartners.swift in Sources */,
+				016BE6EB25D49A46009B631E /* ChatAddMenu.swift in Sources */,
+				016BE6F225D49CC6009B631E /* MomentsList.swift in Sources */,
+				01D5ACF125D5E6DE00B499C5 /* FirebaseKeys.swift in Sources */,
+				016BE74425D4D760009B631E /* AuthContainer.swift in Sources */,
+				016BE72225D4C86E009B631E /* MeStats.swift in Sources */,
+				016BE6EF25D49C9B009B631E /* Moments.swift in Sources */,
+				016BE72825D4CBD5009B631E /* MeLearningPoints.swift in Sources */,
+				016BE6C125D490FD009B631E /* ContentView.swift in Sources */,
+				016BE70725D4BC45009B631E /* MomentsCellMenu.swift in Sources */,
+				016BE6E125D49513009B631E /* ChatList.swift in Sources */,
+				016BE6DD25D493E1009B631E /* Chat.swift in Sources */,
+				016BE71F25D4C7F3009B631E /* MeHeader.swift in Sources */,
+				016BE70125D4A080009B631E /* MomentCellHeader.swift in Sources */,
+				016BE72F25D4CC36009B631E /* MeTools.swift in Sources */,
+				016BE73D25D4D6FD009B631E /* UserData.swift in Sources */,
+				01D5ACFF25D5F2C300B499C5 /* Country.swift in Sources */,
+				01D5ACF425D5E71100B499C5 /* FirestoreReferenceManager.swift in Sources */,
+				016BE71025D4BFEF009B631E /* FindPartnersList.swift in Sources */,
+				016BE6F825D49CFB009B631E /* Avatar.swift in Sources */,
+				01D5ACF825D5EF8400B499C5 /* Gender.swift in Sources */,
+				01D5AD0225D5F54F00B499C5 /* Language.swift in Sources */,
+				016BE70425D4A37A009B631E /* MomentsSearchResults.swift in Sources */,
+				016BE6BF25D490FD009B631E /* HelloTalkCloneApp.swift in Sources */,
+				016BE6F525D49CD0009B631E /* MomentsCell.swift in Sources */,
+				01D5AD0625D5F62600B499C5 /* SignIn.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		016BE6C825D490FE009B631E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		016BE6C925D490FE009B631E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		016BE6CB25D490FE009B631E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51C18E837984E87A3B3B26A8 /* Pods-HelloTalkClone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HelloTalkClone/Preview Content\"";
+				DEVELOPMENT_TEAM = W7Q6XJ7J2P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HelloTalkClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nz.audacia.HelloTalkClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		016BE6CC25D490FE009B631E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBA3B1E9DAB91FB187E4F448 /* Pods-HelloTalkClone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HelloTalkClone/Preview Content\"";
+				DEVELOPMENT_TEAM = W7Q6XJ7J2P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HelloTalkClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nz.audacia.HelloTalkClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		016BE6B625D490FD009B631E /* Build configuration list for PBXProject "HelloTalkClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016BE6C825D490FE009B631E /* Debug */,
+				016BE6C925D490FE009B631E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		016BE6CA25D490FE009B631E /* Build configuration list for PBXNativeTarget "HelloTalkClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016BE6CB25D490FE009B631E /* Debug */,
+				016BE6CC25D490FE009B631E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		016BE6D725D493BF009B631E /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		016BE6D825D493BF009B631E /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 016BE6D725D493BF009B631E /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 016BE6B325D490FD009B631E /* Project object */;
+}
