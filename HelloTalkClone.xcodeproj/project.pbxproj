@@ -46,7 +46,6 @@
 		01D5ACFF25D5F2C300B499C5 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5ACFE25D5F2C300B499C5 /* Country.swift */; };
 		01D5AD0225D5F54F00B499C5 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5AD0125D5F54F00B499C5 /* Language.swift */; };
 		01D5AD0625D5F62600B499C5 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5AD0525D5F62600B499C5 /* SignIn.swift */; };
-		01D5AD2225D601FB00B499C5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01D5AD2125D601FB00B499C5 /* GoogleService-Info.plist */; };
 		65674F138A5977C1EF4BC4E3 /* Pods_HelloTalkClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42F511B6C54E6D7FB7AA115 /* Pods_HelloTalkClone.framework */; };
 /* End PBXBuildFile section */
 
@@ -91,7 +90,6 @@
 		01D5ACFE25D5F2C300B499C5 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		01D5AD0125D5F54F00B499C5 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 		01D5AD0525D5F62600B499C5 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
-		01D5AD2125D601FB00B499C5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		51C18E837984E87A3B3B26A8 /* Pods-HelloTalkClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloTalkClone.debug.xcconfig"; path = "Target Support Files/Pods-HelloTalkClone/Pods-HelloTalkClone.debug.xcconfig"; sourceTree = "<group>"; };
 		CBA3B1E9DAB91FB187E4F448 /* Pods-HelloTalkClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloTalkClone.release.xcconfig"; path = "Target Support Files/Pods-HelloTalkClone/Pods-HelloTalkClone.release.xcconfig"; sourceTree = "<group>"; };
 		D42F511B6C54E6D7FB7AA115 /* Pods_HelloTalkClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloTalkClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,7 +137,6 @@
 				016BE6C425D490FE009B631E /* Preview Content */,
 				01D5ACF025D5E6DE00B499C5 /* FirebaseKeys.swift */,
 				01D5ACF325D5E71100B499C5 /* FirestoreReferenceManager.swift */,
-				01D5AD2125D601FB00B499C5 /* GoogleService-Info.plist */,
 			);
 			path = HelloTalkClone;
 			sourceTree = "<group>";
@@ -386,7 +383,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				016BE6C625D490FE009B631E /* Preview Assets.xcassets in Resources */,
-				01D5AD2225D601FB00B499C5 /* GoogleService-Info.plist in Resources */,
 				016BE6C325D490FE009B631E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
